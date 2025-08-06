@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background:white;
+        }
+        .rotate{
+            display: flex;
+            gap: 10px;
+        }
+        .load{
+            width: 20px;
+            height: 20px;
+            background-color: aqua;
+            border-radius: 50%;
+            animation: loading 1s infinite ease-in-out;
+        }
+        .load:nth-child(1){
+            animation-delay: 0;
+
+        }
+        .load:nth-child(2){
+            animation-delay: 0.2s;
+        }
+        .load:nth-child(3){
+            animation-delay: 0.4s;
+        }
+        @keyframes loading{
+            0%{
+                transform: translate(0);
+            }
+            50%{
+                transform: translateY(1rem);
+            }
+            100%{
+                transform:translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="rotate">
+        <div class="load"></div>
+        <div class="load"></div>
+        <div class="load"></div>
+    </div>
+</body>
+</html>
+        

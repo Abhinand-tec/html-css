@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+       body{
+         display:block;
+         margin: 0;
+       }
+       .head{
+         display: flex;
+         background-color: rgb(75, 75, 223);
+         color: white;
+         width: 100%;
+         height: 50px;
+         padding:10px 20px;
+         font-size: 24px;
+         margin-bottom: 30px;
+      
+
+       }
+       .main {
+         display: flex;
+         height: 60px;
+      
+         }
+         .main li{
+            padding: 10px 15px;
+            cursor: pointer;
+         }
+        .main li .active {
+            color: rgb(54, 54, 219);
+            font-weight: bold;
+            background-color: blue;
+         }
+         .box{
+            
+            display: grid;
+            gap: 10px 10px;
+            grid-template-columns:auto;
+            gap: 20px;
+            flex-direction: row-reverse;
+            
+          }
+          .box1 {
+            background-color: rgb(205, 214, 221);
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            grid-template-columns: auto;
+            margin: 20px;
+         
+          }
+   </style>
+</head>
+<body>
+   
+   <div class="head">This is a game</div>
+   <div class="main">
+      <ul type="none">
+         <li>LEVEL 1</li>
+          <li>LEVEL 2</li>
+          <li>LEVEL 3</li>
+          <li>LEVEL 4</li>
+          <li>LEVEL 5</li>
+          <li>LEVEL 6</li>
+          <li>LEVEL 7</li>
+          <li>LEVEL 8</li>
+          <li>LEVEL 9</li>
+          <li>LEVEL 10</li>
+          <li>LEVEL 11</li>
+          <li class="lock">LEVEL 12</li>
+          <li class="lock">LEVEL 13</li>
+
+</ul>
+     </div> 
+<div class="box">
+           
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+
+ </div> 
+
+ </body>
+  </html>

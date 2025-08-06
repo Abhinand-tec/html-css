@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background: url();
+    background-size: cover;
+    color:rgb(46, 46, 46);
+}
+.profile{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+.profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px white;
+    }
+    .profile h1{
+        margin: 10px 5px;
+        color: aqua;
+    }
+    .profile p{
+        margin: 0;
+        font-weight: 300;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+        gap: 20px;
+    }
+    .whitebox{
+        background-color:pink;
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .bluebox{
+        background-color: rgb(97, 97, 224);
+        color: white;
+        width: 300px;
+    }
+    .box h2{
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .skills{
+        background:#ddd;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: 5px 15px;
+    }
+    .skills div{
+        height: 10px;
+        background: white;
+    }
+    .footer{
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        
+        color: white;
+    }

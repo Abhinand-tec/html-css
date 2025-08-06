@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[required]{
+            border: 2px solid red;
+        }
+        input[type="email"]{
+            background-color: aqua;
+        }
+        div[class~="highlite"]{
+            background-color: blue;
+        }
+        p[lang|="en"]{ 
+            background-color:aqua;
+
+
+        }
+        a[href^="https"]{
+            color: blueviolet;
+        }
+        img[src$=".jpeg"]{
+            width: 120px;
+            border: 2px dashed purple;
+        }
+        a[href*="about"]{
+            font-weight: bold;
+            text-decoration: underline;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Attribute Selectors</h2>
+    <input type="text" placeholder="your name" required><br><br>
+    <input type="email" placeholder="email" required><br><br>
+    <div class="box highlite">Highlited box</div>
+    <p lang="en">English paragraph</p><br>
+    <a href="https://example.com">Login</a>
+    <img src="https://images.pexels.com/photos/32435002/pexels-photo-32435002.jpeg" alt="sample image"><br><br>
+    <a href="https://example.com">About Us</a>
+
+
+</body>
+</html>
